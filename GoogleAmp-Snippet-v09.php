@@ -7,19 +7,13 @@
 $get = modX::sanitize($_GET, $modx->sanitizePatterns);
 $alias = urldecode($get['page']);
 
-$resources = $modx->getCollection('modResource', array('alias'=>$alias,'class_key'=>'modDocument'));
+$resource = $modx->getObject('modResource', array('alias'=>$alias,'class_key'=>'modDocument'));
 
-foreach($resources as $resource) {
-    $id = $resource->get('id');
-    $ptitle = $resource->get('pagetitle');
-    $content = $resource->get('content');
-    $published = $resource->get('publishedon');
-    $canonical = $modx->makeUrl($id,'','','full');
-    
+if ($resource) {
     $modx->setPlaceholders(array(
-        'ptitle' => $ptitle,
-        'content' => $content,
-        'canonical' => $canonical,
-        'published' => $published
+        'ptitle' => $resource->get('pagetitle'),
+        'content' => $resource->get('content'),
+        'canonical' => $modx->makeUrl($resource->get('id'),'','','full'),
+        'published' => $resource->get('publishedon')
     ),'amp_');
 }
