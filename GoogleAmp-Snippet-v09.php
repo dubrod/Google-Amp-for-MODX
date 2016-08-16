@@ -14,6 +14,7 @@ if ($resource) {
         'ptitle' => $resource->get('pagetitle'),
         'content' => $resource->get('content'),
         'canonical' => $modx->makeUrl($resource->get('id'),'','','full'),
-        'published' => $resource->get('publishedon')
+        'published' => $resource->get('publishedon'),
+        'edited' => $resource->get('editedon')
     ),'amp_');
 }
