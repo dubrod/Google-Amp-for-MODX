@@ -44,3 +44,4 @@
   - Open Developer Tools Console in Chrome
   - Add `#development=1` to the end of the URL and refresh
   - You should see `AMP validation successful.` in the console.
+  - Then run it in [Google Rich Snippets Testing Tool](https://search.google.com/structured-data/testing-tool)
