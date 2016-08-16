@@ -1,0 +1,50 @@
+[[!GoogleAmp]]
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>[[+amp_ptitle]]</title>
+    <link rel="canonical" href="[[+amp_canonical]]" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "[[+amp_ptitle]]",
+        "datePublished": "[[+amp_published]]",
+        "dateModified": "[[+amp_edited]]",
+        "author": "[[++site_name]]",
+        "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "[[++site_url]]"
+        },
+        "publisher": {
+         "@type": "Organization",
+         "name": "Wayne Roddy",
+         "logo": {
+            "@type": "ImageObject",
+            "width": "50",
+            "height": "48",
+            "url":"http://flatso.clients.modxcloud.com/assets/mx-themes/images/modx-revo-2_3-icon.png"
+         }
+        },
+        "image": {
+            "@type": "ImageObject",
+            "width": "[[+amp_image_width]]",
+            "height": "[[+amp_image_height]]",
+            "url":"[[+amp_image]]"
+        }
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+    body{background-color:#f2f2f2;font-family:sans-serif;}article{padding:10px;color:#111;}h1{margin:0;padding:5px;background-color:#77bccc;color:white;}amp-img{max-width:100%;}
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+  </head>
+  <body>
+    <h1>[[+amp_ptitle]]</h1>
+    <amp-img src="[[+amp_image]]" alt="[[+amp_ptitle]]" width="[[+amp_image_width]]" height="[[+amp_image_height]]" layout="responsive"></amp-img>
+    <article>[[+amp_content]]</article>
+  </body>
+</html>
