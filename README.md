@@ -30,6 +30,7 @@
 #Step 4 - Link it
 
  - Add this `<link>` to the Template(s) you want to have AMP mirrors of.
+ - NOTE: "amp" after the site_url below. Thats the alias of your Amp Resource from Step 2
  
 ```<link rel="amphtml" href="[[++site_url]]amp&page=[[*alias]]">```
 
