@@ -5,7 +5,7 @@
 
  - You can use `icon-bolt` for a hand visual reference.
  - It's a 1 Template to rule them all Scenario with the Snippet handling placeholders
- - This the basic markup from Google - `https://www.ampproject.org/docs/get_started/create/basic_markup.html`
+ - There are some properties in here you will want to change, like Publisher and Image.
  - I will make individual files in this Repo for the Template so you can start at basic and move up.
 
 ---
