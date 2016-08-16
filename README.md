@@ -1,5 +1,5 @@
 # Google Amp for MODX
-5 Step Guide to adding Google Amp Markup to your MODX powered website
+5 Step Guide to adding [Google Amp](https://www.ampproject.org) Markup to your MODX powered website
 
 #Step 1 - Add a new Template
 
