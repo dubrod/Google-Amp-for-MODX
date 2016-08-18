@@ -1,6 +1,8 @@
 # Google Amp for MODX
 5 Step Guide to adding [Google Amp](https://www.ampproject.org) Markup to your MODX powered website
 
+> If your looking for a Context Based Extra we have it here: [Ampify](https://github.com/modxcms/ampify)
+
 #Step 1 - Add a new Template
 
  - You can use `icon-bolt` for a hand visual reference.
